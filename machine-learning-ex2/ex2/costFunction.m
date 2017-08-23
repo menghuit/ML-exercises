@@ -24,7 +24,7 @@ J = -1 * sum(y .* log(sigmoid(X * theta)) + (1 - y) .* log(1 - sigmoid(X * theta
 
 grad = X' * (sigmoid(X * theta) - y);
 
-
+ 
 
 
 
